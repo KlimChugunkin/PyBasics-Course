@@ -1,21 +1,27 @@
+"""
+Задание 1.
+Вывод временного интервала в секундах в формате "1 день 16 часов 28 мин 30 сек"
+
+"""
+
 MINUTE = 60
 HOUR = 3600
 DAY = 86400
 
 
-def get_day(duration):
+def get_day(duration):  # возвращает количество полных дней в duration
     return duration // DAY
 
 
-def get_hour(duration):
-    return duration%DAY // HOUR
+def get_hour(duration):  # возвращает часы, свыше полных дней в duration
+    return duration % DAY // HOUR
 
 
-def get_min(duration):
-    return duration%HOUR // MINUTE
+def get_min(duration):  # возвращает минуты, свыше полных часов в duration
+    return duration % HOUR // MINUTE
 
 
-def get_sec(duration):
+def get_sec(duration):  # возвращает секунды, свыше полных минут в duration
     return duration % MINUTE
 
 
