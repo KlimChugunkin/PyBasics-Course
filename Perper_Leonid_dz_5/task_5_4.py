@@ -16,7 +16,7 @@ def greater_num(num_list: list):
     :return: list of numbers that are greater than previous in list
     """
     result = []
-    for index in range(1,len(num_list)):
+    for index in range(1, len(num_list)):
         if num_list[index] > num_list[index - 1]:
             result.append(num_list[index])
     return result

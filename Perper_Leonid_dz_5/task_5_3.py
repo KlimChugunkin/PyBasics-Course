@@ -14,11 +14,9 @@ tutors = [
 klasses = [
     '9А', '7В', '9Б', '9В', '8Б',  # '10А', '10Б', '9А'
 ]
-while len(tutors)>len(klasses):
+while len(tutors) > len(klasses):
     klasses.append(None)
 tuple_generator = ((tutor, klass) for tutor, klass in zip(tutors, klasses))
 print(type(tuple_generator))
 for _iter in range(len(tutors) + 1):
     print(next(tuple_generator))
-
-
