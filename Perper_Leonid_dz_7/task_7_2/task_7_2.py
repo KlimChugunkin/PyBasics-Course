@@ -9,7 +9,7 @@ import yaml
 from yaml.loader import SafeLoader
 
 CONFIG_FILE = 'config.yaml'
-DEST = 'D:\\PyBasics-Course\\Perper_Leonid_dz_7\\task_7_3'
+DEST = '.'
 
 with open('config.yaml', 'r', encoding='utf-8') as yml:
     config_data = tuple(yaml.load(yml, Loader=SafeLoader))
