@@ -5,21 +5,31 @@
 декоратора. Вывести имя функции.
 """
 
+from functools import wraps
+
 
 def type_logger(func):
+    @wraps(func)
     def wrapper(*args, **kwargs):
-        func(*args)
-        args_list = []
-        for arg in args:
-            args_list.append(f'{arg}: {type(arg)}')
-        print(*args_list, sep=', ')
-        return
+        __name__ = func.__name__
+        print(f'Name: {func.__name__}')
+        print(*[f'{arg}: {type(arg)}' for arg in args], sep=', ')
+        if kwargs:
+            print(*[f'{key} = {val}: {type(val)}' for key, val in kwargs.items()], sep=', ')
+        return func(*args, **kwargs)
     return wrapper
 
 
 @type_logger
-def print_line(*args):
-    print(*args, sep='\n')
+def divide(*args, divider=10, divider_correct=1, div_zero_correct=False):
+    if div_zero_correct and divider == 0:
+        divider = divider_correct
+    result = []
+    for arg in args:
+        result.append(arg / divider)
+    return result
 
 
-print_line('have', 'a', 'good', 'day', 5)
+test_list = [5, 8, 10, 6, 12]
+print(divide(*test_list, divider=5, div_zero_correct=True))
+print(divide.__name__)
