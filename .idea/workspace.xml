@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="500b09c9-b300-4349-bc7b-b39734a815bf" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/Perper_Leonid_dz_8/task_8_3.py" />
       <change beforePath="$PROJECT_DIR$/Perper_Leonid_dz_8/Readme.txt" afterPath="$PROJECT_DIR$/Perper_Leonid_dz_8/Readme.txt" />
@@ -8,11 +9,24 @@
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
+=======
+    <list default="true" id="bd5406d1-dd55-4748-9f7d-a23d94d9eae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PyBasics Course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Perper_Leonid_dz_8/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Perper_Leonid_dz_8/task_8_1.py" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="task_8_3.py" pinned="false" current-in-tab="true">
@@ -37,6 +51,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -44,6 +60,7 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="FindInProjectRecents">
     <findStrings>
       <find>joke</find>
@@ -142,78 +159,164 @@
   </component>
   <component name="RunManager" selected="Python.task_8_3">
     <configuration name="task_7_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1riiHFy4625aOrmZ1WFiifqspv7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Python.task_8_1">
+    <configuration name="edit_sale" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyBasics Course" />
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_7/task_7_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyBasics-Course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_7/task_7_2/task_7_2.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_6/task_6_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_6/task_6_7/edit_sale.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+<<<<<<< Updated upstream
     </configuration>
     <configuration name="task_7_3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_6_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyBasics Course" />
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_7/task_7_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyBasics-Course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_7/task_7_3/task_7_3.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_6/task_6_1.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+<<<<<<< Updated upstream
     </configuration>
     <configuration name="task_7_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_6_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyBasics Course" />
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyBasics-Course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_7/task_7_4.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_6/task_6_2.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+<<<<<<< Updated upstream
     </configuration>
     <configuration name="task_8_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_6_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyBasics Course" />
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyBasics-Course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_8/task_8_1.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perper_Leonid_dz_6/task_6_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_6/task_6_4/task_6_4.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+<<<<<<< Updated upstream
     </configuration>
     <configuration name="task_8_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_8_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyBasics Course" />
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -224,12 +327,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< Updated upstream
       <module name="PyBasics-Course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_8/task_8_3.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perper_Leonid_dz_8/task_8_1.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+<<<<<<< Updated upstream
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.task_7_2 (1)" />
@@ -471,5 +579,43 @@
         </state>
       </provider>
     </entry>
+=======
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task_8_1" />
+        <item itemvalue="Python.edit_sale" />
+        <item itemvalue="Python.task_6_4" />
+        <item itemvalue="Python.task_6_1 (1)" />
+        <item itemvalue="Python.task_6_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd5406d1-dd55-4748-9f7d-a23d94d9eae3" name="Default Changelist" comment="" />
+      <created>1619465226222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619465226222</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> Stashed changes
   </component>
 </project>
