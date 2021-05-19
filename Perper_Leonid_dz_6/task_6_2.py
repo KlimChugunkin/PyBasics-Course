@@ -21,4 +21,3 @@ with requests.get(URL_LOG, stream=True) as resp:
 ip_sorted = sorted(ip_dict.items(), key=lambda item: item[1], reverse=True)
 print(f'IP c наибольшим количеством запросов: {ip_sorted[0][0]}',
       f'Количество запросов: {ip_sorted[0][1]}', sep='\n')
-

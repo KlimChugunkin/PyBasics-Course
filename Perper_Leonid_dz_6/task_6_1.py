@@ -20,7 +20,7 @@ def get_tuple_of_str(string_to_parse: str):
     if len(split_string) > 6:
         return split_string[0], split_string[5].replace('"', ''), split_string[6]
     else:
-        return None, None, None
+        return (None,) * 3
 
 
 URL_LOG = 'https://github.com/elastic/examples/raw/master/Common%20Data%20Formats/nginx_logs/nginx_logs'
