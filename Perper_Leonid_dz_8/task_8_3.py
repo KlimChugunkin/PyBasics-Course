@@ -11,7 +11,6 @@ from functools import wraps
 def type_logger(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
-        __name__ = func.__name__
         print(f'Name: {func.__name__}')
         print(*[f'{arg}: {type(arg)}' for arg in args], sep=', ')
         if kwargs:
