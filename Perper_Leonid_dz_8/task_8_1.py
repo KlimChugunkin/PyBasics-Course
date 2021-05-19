@@ -16,10 +16,10 @@ def email_parse(email_address: str):
     :return: dict {'user_name': <user_name>, 'domain': <domain>}
     """
 
-    if not re.match(r'[^@\s]+@[^@\s\.]+\.[a-z]+$', email_address):
+    if not re.match(r'[^@\s]+@[^@\s.]+\.[a-z]+$', email_address):
         raise ValueError('некорректный адрес')
     return {'user_name': re.match(r'\S+(?=@)', email_address)[0],
-            'domain': re.search(r'(?<=@)[^@\s\.]+\.[a-z]+$', email_address)[0]}
+            'domain': re.search(r'(?<=@)[^@\s.]+\.[a-z]+$', email_address)[0]}
 
 
 print(email_parse('vasya_1989@gmail.com'))
