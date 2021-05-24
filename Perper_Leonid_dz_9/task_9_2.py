@@ -11,18 +11,15 @@
 
 
 class Road:
-    _length = 0
-    _width = 0
-    __thick = 5
-    __mass_cm = 25
-
-    def __init__(self, length_input, width_input):
-        self._length = length_input
-        self._width = width_input
+    def __init__(self, length, width):
+        self._length = length
+        self._width = width
+        self.__thick = 5
+        self.__mass_per_cube = 25
 
     def calc_mass(self):
-        return self._width * self._length * self.__thick * self.__mass_cm * 0.001
+        return self._width * self._length * self.__thick * self.__mass_per_cube / 1000
 
 
 road = Road(5000, 5)
-print(road.calc_mass(), ' tons')
+print(f'Масса дорожного покрытия размерами {road._length} x {road._width} м - {road.calc_mass()} тонн')

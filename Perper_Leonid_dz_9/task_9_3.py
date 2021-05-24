@@ -12,22 +12,17 @@
 
 
 class Worker:
-    name = ''
-    surname = ''
-    position = ''
-    __income = {'wage': 2000, 'bonus': 1500}
-
-    def __init__(self, w_name, w_surname, w_position):
-        self.name = w_name
-        self.surname = w_surname
-        self.position = w_position
+    def __init__(self, name, surname, position):
+        self.name = name
+        self.surname = surname
+        self.position = position
+        self.__income = {'wage': 2000, 'bonus': 1500}
 
     def get_income(self):
         return self.__income['wage'], self.__income['bonus']
 
 
 class Position(Worker):
-
     def get_full_name(self):
         return ' '.join([self.name, self.surname])
 

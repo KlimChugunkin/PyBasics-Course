@@ -14,13 +14,10 @@
 
 
 class Car:
-    speed = 0
-    color = None
-    name = None
-    is_police = False
-
     def __init__(self, name, color):
         self.color,  self.name = color, name
+        self.is_police = False
+        self.speed = 0
 
     def go(self):
         print(f'Машина {self.name} начала движение')

@@ -14,18 +14,16 @@ from time import sleep, perf_counter
 
 
 class TrafficLight:
-    __color = ''
-
     def __init__(self):
-        pass
+        __color = 'red'
 
     def running(self):
-        colors_dict = {'red': ('\033[0;31;0m', 7), 'yellow': ('\033[0;33;0m', 7), 'green': ('\033[0;32;0m', 7)}
+        colors_dict = {'red': ('\033[31m', 7), 'yellow': ('\033[33m', 2), 'green': ('\033[32m', 12)}
         start = perf_counter()
         while (perf_counter() - start) < 60:
             for key, val in colors_dict.items():
                 self.__color = key
-                print(f'{val[0]} TrafficLight switched to {key} \033[0;0m')
+                print(f'{val[0]} TrafficLight switched to {key} \033[0m')
                 sleep(val[1])
 
 
