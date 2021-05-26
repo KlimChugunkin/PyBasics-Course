@@ -12,11 +12,11 @@
 
 
 class Worker:
-    def __init__(self, name, surname, position):
+    def __init__(self, name, surname, position, wage, bonus):
         self.name = name
         self.surname = surname
         self.position = position
-        self.__income = {'wage': 2000, 'bonus': 1500}
+        self.__income = {'wage': wage, 'bonus': bonus}
 
     def get_income(self):
         return self.__income['wage'], self.__income['bonus']
@@ -30,7 +30,7 @@ class Position(Worker):
         return self.get_income()[0] + self.get_income()[1]
 
 
-posit = Position('Josef', 'Weiss', 'driver')
+posit = Position('Josef', 'Weiss', 'driver', 2000, 500)
 print(posit.name, posit.surname, posit.position, sep=', ')
 print(posit.get_full_name())
 print(posit.get_total_income())

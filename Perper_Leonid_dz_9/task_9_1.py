@@ -15,7 +15,7 @@ from time import sleep, perf_counter
 
 class TrafficLight:
     def __init__(self):
-        __color = 'red'
+        self.__color = 'red'
 
     def running(self):
         colors_dict = {'red': ('\033[31m', 7), 'yellow': ('\033[33m', 2), 'green': ('\033[32m', 12)}

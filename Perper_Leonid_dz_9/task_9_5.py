@@ -12,7 +12,7 @@
 
 class Stationary:
     def __init__(self, title):
-        self.title = 'Принадлежность'
+        self.title = title
 
     def draw(self):
         print('Запуск отрисовки')
@@ -34,7 +34,7 @@ class Handle(Stationary):
 
 
 test_0 = Stationary('Кисть')
-test_1 = Pen('Карандаш')
+test_1 = Pen('Ручка')
 test_2 = Pencil('Карандаш')
 test_3 = Handle('Маркер')
 test_0.draw()
