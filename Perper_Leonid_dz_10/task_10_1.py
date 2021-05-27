@@ -15,17 +15,18 @@ class Matrix:
         self.__rows = [el for el in args]
 
     def __str__(self):
-        matr_str = []
+        matrix_str = []
         for row in self.__rows:
             str_row = ' '.join([str(elem) for elem in row])
-            matr_str.append(str_row)
-        return '\n'.join(matr_str)
+            matrix_str.append(str_row)
+        return '\n'.join(matrix_str)
 
     def __add__(self, other):
         if self.get_size() != other.get_size():
-            raise MatrixError('Both summand must have the same size')
-        return Matrix([[elem1 + elem2 for elem1, elem2 in zip(row1, row2)]
-                      for row1, row2 in zip(self.__rows, other.__rows)])
+            raise MatrixError('Both summands must have the same size')
+        _list = [[elem1 + elem2 for elem1, elem2 in zip(row1, row2)]
+                 for row1, row2 in zip(self.__rows, other.__rows)]
+        return Matrix(*_list)
 
     def get_size(self):
         return len(self.__rows[0]), len(self.__rows)
@@ -42,17 +43,16 @@ class Matrix:
 
 
 class MatrixError(Exception):
-    pass
+    def __init__(self, text):
+        self.txt = text
 
 
-matrix_1 = Matrix([1, 2, 3, 8],
-                  [4, 5, 8, 7],
-                  [5, 8, 7, 7])
+matrix_1 = Matrix([1, 1, 1, 1],
+                  [2, 2, 2, 2],
+                  [3, 3, 3, 3])
 
-matrix_2 = Matrix([1, 2, 3, 8],
-                  [4, 5, 8, 7],
-                  [5, 8, 7, 7])
+matrix_2 = Matrix([4, 4, 4, 4],
+                  [5, 5, 5, 5],
+                  [6, 6, 6, 6])
 matrix_3 = matrix_1 + matrix_2
-print(matrix_3, type(matrix_3), sep='\n')
-
-
+print(matrix_1, matrix_2, matrix_3, type(matrix_3), sep='\n\n')
