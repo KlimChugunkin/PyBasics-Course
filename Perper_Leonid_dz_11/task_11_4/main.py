@@ -5,14 +5,23 @@
 типов. В классах-наследниках реализовать параметры, уникальные для каждого типа оргтехники.
 """
 
-#from source import Warehouse, Department, Xerox, Scanner, Printer
-from source import Printer
+from source import Scanner, Printer, Xerox, Warehouse, Department
 
-# warhse = Warehouse('Общий', 50)
-# pr_1 = Printer('HP 2170', '100058468', )
-# xrx_1 = Xerox('Xerox 52', '18685001', False, 'A3')
+warhse = Warehouse(50)
+sales_dept = Department(3)
 
-item1 = Printer(model='HP 2580', serial_num=2588405, paper_size='A3')
-
-
-
+item2 = Printer(model='Canon Z0', serial_num=586454, paper_size='A3', color=False)
+item1 = Printer(model='HP 2580', serial_num=2588405, paper_size='A4', color=True)
+item3 = Scanner(model='Samsung 156', serial_num=246465, paper_size='A2', dpi=300)
+item4 = Xerox(model='Xerox 450', serial_num=26558405, paper_size='A3', dpi=600, color=True)
+print(item1, item2, item3, item4, sep='\n')
+items_list = [item1, item2, item3, item4]
+for item in items_list:
+    warhse.storage(item)
+print(warhse.show_storage())
+warhse.write_off('printer', 'HP 2580')
+print(warhse.show_storage())
+warhse.storage(item1)
+print(warhse.show_storage())
+warhse.issue('printer', 'Canon Z0', sales_dept)
+print(warhse.show_storage())
