@@ -17,7 +17,6 @@ from re import match
 class NotNumber(Exception):
     def __init__(self, msg):
         self.msg = msg
-        super().__init__(msg)
 
 
 def list_fill(user_list: list, elem: str):

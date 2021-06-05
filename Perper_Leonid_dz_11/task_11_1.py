@@ -11,12 +11,12 @@ from re import match
 
 class Date:
     def __init__(self, data: str):
-        Date.get_values(data)
+        self.get_values(data)
 
     @classmethod
     def get_values(cls, data: str):
         if match(r'^\d{2}-\d{2}-\d{4}$', data):
-            data_parsed = [int(elem) for elem in data.split('-')]
+            data_parsed = [int(elm) for elm in data.split('-')]
         else:
             raise ValueError('Date doesn\'t match pattern "dd-mm-yyyy"')
         Date.validate_values(data_parsed[0], data_parsed[1], data_parsed[2])
@@ -33,9 +33,9 @@ class Date:
 
 
 date_test_list = ['31-05-2002', '3105-2002', '32-05-2002', '31-13-2002', '31-05-5687']
-for elem in date_test_list:
+for element in date_test_list:
     try:
-        date_test = Date(elem)
+        date_test = Date(element)
         print(date_test.day, date_test.month, date_test.year, sep='/')
     except ValueError as err:
         print(err)
